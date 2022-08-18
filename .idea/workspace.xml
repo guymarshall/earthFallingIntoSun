@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="347f2e2a-0232-4e13-a549-f87e8f6362fb" name="Changes" comment="Change DISTANCE_BETWEEN_EARTH_AND_SUN from KM to M" />
+    <list default="true" id="347f2e2a-0232-4e13-a549-f87e8f6362fb" name="Changes" comment="Implement calculateAcceleration in Functions.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660734665192</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implement calculateAcceleration in Functions.java">
+      <created>1660735029902</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660735029902</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -70,6 +86,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Change DISTANCE_BETWEEN_EARTH_AND_SUN from KM to M" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change DISTANCE_BETWEEN_EARTH_AND_SUN from KM to M" />
+    <MESSAGE value="Implement calculateAcceleration in Functions.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement calculateAcceleration in Functions.java" />
   </component>
 </project>

@@ -23,5 +23,7 @@ public class Main {
         final double GRAVITATIONAL_CONSTANT = 0.000000000066743d;
         final double MASS_OF_SUN_KG = 1988470000000000000000000000000d;
         final double DISTANCE_BETWEEN_EARTH_AND_SUN_M = 151480000000d;
+
+        int deltaT = 1;
     }
 }

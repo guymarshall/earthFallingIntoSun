@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="347f2e2a-0232-4e13-a549-f87e8f6362fb" name="Changes" comment="Implement calculateAcceleration in Functions.java">
+    <list default="true" id="347f2e2a-0232-4e13-a549-f87e8f6362fb" name="Changes" comment="Add deltaT variable declaration and initialisation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660735029902</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Multiply result of calculateAcceleration by -1 because the Earth is going towards the Sun, and the radius is decreasing">
+      <created>1660861175119</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660861175119</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add deltaT variable declaration and initialisation">
+      <created>1660861325297</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660861325297</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,6 +102,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Change DISTANCE_BETWEEN_EARTH_AND_SUN from KM to M" />
     <MESSAGE value="Implement calculateAcceleration in Functions.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement calculateAcceleration in Functions.java" />
+    <MESSAGE value="Multiply result of calculateAcceleration by -1 because the Earth is going towards the Sun, and the radius is decreasing" />
+    <MESSAGE value="Add deltaT variable declaration and initialisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add deltaT variable declaration and initialisation" />
   </component>
 </project>

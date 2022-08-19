@@ -39,7 +39,7 @@ public class Main {
             deltaS = velocity * deltaT;
             distanceFromSun += deltaS;
 
-            System.out.println("");
+            System.out.printf("Time: %ds, acceleration: %fms^-2, velocity: %fms^-1, distance: %fm%n", time, acceleration, velocity, distanceFromSun);
 
             time += deltaT;
         }

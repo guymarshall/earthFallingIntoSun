@@ -61,16 +61,18 @@ public class Main {
         double deltaV = 0.0;
         double deltaS = 0.0;
 
-        while (distanceFromSun > 0.0) {
+        while (true) {
             acceleration = Functions.calculateAcceleration(GRAVITATIONAL_CONSTANT, MASS_OF_SUN_KG, distanceFromSun);
             deltaV = acceleration * deltaT;
             velocity += deltaV;
             deltaS = velocity * deltaT;
             distanceFromSun += deltaS;
 
-            if (distanceFromSun > 0.0) {
-                System.out.printf("Time: %ds, acceleration: %fms^-2, velocity: %fms^-1, distance: %fm%n", time, acceleration, velocity, distanceFromSun);
+            if (distanceFromSun <= 0.0) {
+                break;
             }
+
+            System.out.printf("Time: %ds, acceleration: %fms^-2, velocity: %fms^-1, distance: %fm%n", time, acceleration, velocity, distanceFromSun);
 
             time += deltaT;
         }

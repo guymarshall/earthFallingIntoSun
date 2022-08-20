@@ -46,7 +46,7 @@ public class Main {
 //        ArrayList<String> results = new ArrayList<>();
 
         while (true) {
-            acceleration = Functions.calculateAcceleration(GRAVITATIONAL_CONSTANT, MASS_OF_SUN_KG, distanceFromSun);
+            acceleration = -1 * (GRAVITATIONAL_CONSTANT * MASS_OF_SUN_KG) / (distanceFromSun * distanceFromSun);
             deltaV = acceleration * deltaT;
             velocity += deltaV;
             deltaS = velocity * deltaT;

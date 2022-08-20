@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="347f2e2a-0232-4e13-a549-f87e8f6362fb" name="Changes" comment="Add prompts and switch for planet choice">
+    <list default="true" id="347f2e2a-0232-4e13-a549-f87e8f6362fb" name="Changes" comment="Remove unnecessary initialisations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -40,6 +40,20 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="earthFallingIntoSun" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -112,7 +126,35 @@
       <option name="project" value="LOCAL" />
       <updated>1660981041258</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add initialisation to radius before switch">
+      <created>1660981998369</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1660981998369</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add check for distance being greater than 0 for print">
+      <created>1660982072297</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660982072297</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Change to while true with break statement">
+      <created>1660982123519</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660982123519</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Remove unnecessary initialisations">
+      <created>1660982160142</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1660982160142</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,6 +178,10 @@
     <MESSAGE value="Add final print statements + test (works!)" />
     <MESSAGE value="Remove initial comments" />
     <MESSAGE value="Add prompts and switch for planet choice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add prompts and switch for planet choice" />
+    <MESSAGE value="Add initialisation to radius before switch" />
+    <MESSAGE value="Add check for distance being greater than 0 for print" />
+    <MESSAGE value="Change to while true with break statement" />
+    <MESSAGE value="Remove unnecessary initialisations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unnecessary initialisations" />
   </component>
 </project>

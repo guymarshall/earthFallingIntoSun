@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -61,6 +62,8 @@ public class Main {
         double deltaV;
         double deltaS;
 
+//        ArrayList<String> results = new ArrayList<>();
+
         while (true) {
             acceleration = Functions.calculateAcceleration(GRAVITATIONAL_CONSTANT, MASS_OF_SUN_KG, distanceFromSun);
             deltaV = acceleration * deltaT;
@@ -72,9 +75,15 @@ public class Main {
                 break;
             }
 
+//            results.add(String.format("Time: %ds, acceleration: %fms^-2, velocity: %fms^-1, distance: %fm", time, acceleration, velocity, distanceFromSun));
+
             System.out.printf("Time: %ds, acceleration: %fms^-2, velocity: %fms^-1, distance: %fm%n", time, acceleration, velocity, distanceFromSun);
 
             time += deltaT;
         }
+
+//        for (String result : results) {
+//            System.out.println(result);
+//        }
     }
 }

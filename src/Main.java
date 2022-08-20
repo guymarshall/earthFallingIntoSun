@@ -56,10 +56,10 @@ public class Main {
         int deltaT = 1;
         int time = 0;
         double distanceFromSun = radius;
-        double acceleration = 0.0;
+        double acceleration;
         double velocity = 0.0;
-        double deltaV = 0.0;
-        double deltaS = 0.0;
+        double deltaV;
+        double deltaS;
 
         while (true) {
             acceleration = Functions.calculateAcceleration(GRAVITATIONAL_CONSTANT, MASS_OF_SUN_KG, distanceFromSun);

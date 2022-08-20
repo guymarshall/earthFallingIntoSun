@@ -19,7 +19,7 @@ public class Main {
         System.out.println("9 - Pluto");
         System.out.print("Choice: ");
         int choice = scanner.nextInt();
-        double radius;
+        double radius = 0.0;
 
         switch (choice) {
             case 1:
@@ -61,7 +61,7 @@ public class Main {
         double deltaV = 0.0;
         double deltaS = 0.0;
 
-        while (distanceFromSun > 0) {
+        while (distanceFromSun > 0.0) {
             acceleration = Functions.calculateAcceleration(GRAVITATIONAL_CONSTANT, MASS_OF_SUN_KG, distanceFromSun);
             deltaV = acceleration * deltaT;
             velocity += deltaV;

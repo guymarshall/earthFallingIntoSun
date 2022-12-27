@@ -23,20 +23,60 @@ public class App
         System.out.println("9 - Pluto");
         System.out.print("Choice: ");
         int choice = scanner.nextInt();
+        scanner.close();
         double radius = 0.0;
 
         switch (choice)
         {
-            case 1 -> radius = 69550000000.0;
-            case 2 -> radius = 107550000000.0;
-            case 3 -> radius = 151480000000.0;
-            case 4 -> radius = 211620000000.0;
-            case 5 -> radius = 741850000000.0;
-            case 6 -> radius = 1474100000000.0;
-            case 7 -> radius = 2944700000000.0;
-            case 8 -> radius = 4474000000000.0;
-            case 9 -> radius = 5900000000000.0;
-            default -> System.exit(1);
+            case (1):
+            {
+                radius = 69550000000.0;
+                break;
+            }
+            case (2):
+            {
+                radius = 107550000000.0;
+                break;
+            }
+            case (3):
+            {
+                radius = 151480000000.0;
+                break;
+            }
+            case (4):
+            {
+                radius = 211620000000.0;
+                break;
+            }
+            case (5):
+            {
+                radius = 741850000000.0;
+                break;
+            }
+            case (6):
+            {
+                radius = 1474100000000.0;
+                break;
+            }
+            case (7):
+            {
+                radius = 2944700000000.0;
+                break;
+            }
+            case (8):
+            {
+                radius = 4474000000000.0;
+                break;
+            }
+            case (9):
+            {
+                radius = 5900000000000.0;
+                break;
+            }
+            default:
+            {
+                System.exit(1);
+            }
         }
 
         int deltaT = 1;
